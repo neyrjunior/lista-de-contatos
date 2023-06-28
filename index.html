@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="introdução">
+            <h1>Lista de contato</h1>
+            <img src="imagens/images.png" alt="">
+            <form id="form">
+                <label for="Nome">Nome:</label><br><input type="text" id="nome" required placeholder="ex: Ney Robson"><br>
+                <label for="telefone">Telefone:</label><br><input type="tel" id="telefone" required placeholder="ex: (01) 2345-6789"><br>
+                <button>Adicionar</button>
+            </form>
+        </div>
+        <div class="lista">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Numero</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ney</td>
+                        <td>(01) 2345-6789</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

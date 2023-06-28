@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sem serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+.conteiner {
+    max-width: 700px;
+    border: 2px solid black;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+}
+.introdução {
+    width: 300px;
+    height: 350px;
+}
+.introdução h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.introdução img {
+    margin-left: 85px;
+    margin-bottom: 30px;
+}
+.introdução input {
+    padding: 5px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.introdução label {
+    margin-left: 40px;
+}
+.introdução button {
+    margin-left: 115px;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.lista {
+    background-color: lightgray;
+    width: 300px;
+    height: 350px;
+}
+.lista th, td {
+    width: 150px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    
+
+} 
